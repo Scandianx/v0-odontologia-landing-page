@@ -1,30 +1,59 @@
-# Odontologia landing page
+# Landing page de Odontologia (Next.js)
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Landing page para consultório odontológico, construída com Next.js (App Router), React e Tailwind CSS.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/filipes-projects-93468a5b/v0-odontologia-landing-page)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/uy9xXn3NUOJ)
+## Tecnologias
 
-## Overview
+- Next.js + React + TypeScript
+- Tailwind CSS
+- Componentes `shadcn/ui` (Radix UI por baixo)
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## Requisitos
 
-## Deployment
+- Node.js 18+ (recomendado: Node.js LTS)
+- npm (ou outro gerenciador: pnpm/yarn)
 
-Your project is live at:
+## Como iniciar o projeto
 
-**[https://vercel.com/filipes-projects-93468a5b/v0-odontologia-landing-page](https://vercel.com/filipes-projects-93468a5b/v0-odontologia-landing-page)**
+1) Instale as dependências:
 
-## Build your app
+```bash
+npm install
+```
 
-Continue building your app on:
+2) Rode em desenvolvimento:
 
-**[https://v0.app/chat/uy9xXn3NUOJ](https://v0.app/chat/uy9xXn3NUOJ)**
+```bash
+npm run dev
+```
 
-## How It Works
+Abra `http://localhost:3000` no navegador.
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## Scripts
+
+- `npm run dev`: roda o servidor de desenvolvimento
+- `npm run build`: gera o build de produção
+- `npm run start`: inicia o servidor em modo produção (após build)
+
+## Estrutura de pastas
+
+- `app/`: rotas e páginas (Next.js App Router)
+- `components/`: componentes reutilizáveis (inclui `components/ui`)
+- `public/`: assets estáticos
+- `styles/`: estilos auxiliares (quando aplicável)
+
+## Onde editar
+
+- Página inicial: `app/page.tsx`
+- Layout/SEO (title, description, Open Graph): `app/layout.tsx`
+- Páginas de serviços: `app/servicos/*/page.tsx`
+
+## Deploy
+
+Você pode publicar em qualquer plataforma que rode Next.js (por exemplo: Vercel, Render, Railway, VPS).
+O fluxo típico é: `npm install` → `npm run build` → `npm run start`.
+
+## Observações
+
+- O projeto está configurado para não falhar o build por erros de TypeScript (`next.config.mjs`).
+- Imagens estão com `unoptimized: true` no Next.js (útil para deploys simples/estáticos).
