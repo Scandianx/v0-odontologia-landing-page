@@ -35,11 +35,48 @@ export function ServiceDetail({
     <div className={styles.serviceDetail}>
       {/* Hero Section */}
       <section className={styles.hero}>
-        <div className={styles.heroOverlay} />
-        <img src={heroImage || "/placeholder.svg"} alt={title} className={styles.heroImage} />
-        <div className={styles.heroContent}>
-          <h1 className={styles.heroTitle}>{title}</h1>
-          <p className={styles.heroSubtitle}>{subtitle}</p>
+        <div className={styles.heroInner}>
+          <div className={styles.heroTextSide}>
+            <div className={styles.heroTextContent}>
+              <nav className={styles.breadcrumb} aria-label="Breadcrumb">
+                <Link href="/" className={styles.breadcrumbLink}>Inicio</Link>
+                <span className={styles.breadcrumbSep} aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                </span>
+                <Link href="/#servicos" className={styles.breadcrumbLink}>Servicos</Link>
+                <span className={styles.breadcrumbSep} aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                </span>
+                <span className={styles.breadcrumbCurrent}>{title}</span>
+              </nav>
+
+              <div className={styles.heroLabel}>
+                <span className={styles.heroLabelDot} aria-hidden="true" />
+                <span>Especialidade</span>
+              </div>
+
+              <h1 className={styles.heroTitle}>{title}</h1>
+              <p className={styles.heroSubtitle}>{subtitle}</p>
+
+              <div className={styles.heroCta}>
+                <Button href={ctaLink} variant="primary" size="large">
+                  {ctaText}
+                </Button>
+                <Button href="https://wa.me/5522999956389" target="_blank" rel="noopener noreferrer" variant="secondary" size="large">
+                  WhatsApp
+                </Button>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.heroImageSide}>
+            <div className={styles.heroImageWrapper}>
+              <img src={heroImage || "/placeholder.svg"} alt={title} className={styles.heroImage} />
+              <div className={styles.heroImageOverlay} />
+            </div>
+            <div className={styles.heroDecorRing} aria-hidden="true" />
+            <div className={styles.heroDecorDots} aria-hidden="true" />
+          </div>
         </div>
       </section>
 
