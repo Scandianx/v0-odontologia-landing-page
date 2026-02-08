@@ -2,32 +2,53 @@
   width: 100%;
 }
 
-/* Hero Section */
+/* ===================== */
+/* Hero Section          */
+/* ===================== */
 .hero {
   position: relative;
   width: 100%;
-  padding-top: var(--header-height);
-  background-color: var(--color-secondary);
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
   overflow: hidden;
 }
 
-.heroInner {
-  display: flex;
-  flex-direction: column;
+.heroImage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(42, 36, 38, 0.25) 0%,
+      rgba(42, 36, 38, 0.15) 40%,
+      rgba(42, 36, 38, 0.55) 70%,
+      rgba(42, 36, 38, 0.82) 100%
+    );
+}
+
+.heroContent {
+  position: relative;
+  z-index: 3;
+  width: 100%;
   max-width: var(--container-max);
   margin: 0 auto;
-  min-height: calc(100vh - var(--header-height));
-}
-
-.heroTextSide {
+  padding: 0 var(--container-padding) var(--spacing-3xl);
   display: flex;
-  align-items: center;
-  padding: var(--spacing-2xl) var(--container-padding) var(--spacing-xl);
-}
-
-.heroTextContent {
-  width: 100%;
-  max-width: 600px;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 /* Breadcrumb */
@@ -35,28 +56,25 @@
   display: flex;
   align-items: center;
   gap: var(--spacing-xs);
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
   font-size: var(--font-size-sm);
 }
 
 .breadcrumbLink {
-  color: var(--color-text-light);
+  color: rgba(255, 255, 255, 0.7);
   transition: color var(--transition-fast);
 }
 
 .breadcrumbLink:hover {
-  color: var(--color-primary);
+  color: var(--color-white);
 }
 
 .breadcrumbSep {
-  color: var(--color-text-light);
-  opacity: 0.5;
-  display: flex;
-  align-items: center;
+  color: rgba(255, 255, 255, 0.35);
 }
 
 .breadcrumbCurrent {
-  color: var(--color-primary);
+  color: var(--color-white);
   font-weight: 500;
 }
 
@@ -64,164 +82,103 @@
 .heroLabel {
   display: inline-flex;
   align-items: center;
-  gap: var(--spacing-xs);
-  padding: 6px 16px;
-  background-color: rgba(172, 134, 153, 0.12);
-  border-radius: 100px;
+  gap: var(--spacing-sm);
   font-size: var(--font-size-xs);
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--color-primary);
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
 }
 
-.heroLabelDot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
+.heroLabelLine {
+  display: block;
+  width: 32px;
+  height: 2px;
   background-color: var(--color-primary);
+  border-radius: 1px;
 }
 
 /* Title & Subtitle */
 .heroTitle {
-  font-size: var(--font-size-3xl);
+  font-size: var(--font-size-4xl);
   font-weight: 700;
-  line-height: 1.15;
-  color: var(--color-text-dark);
+  line-height: 1.1;
+  color: var(--color-white);
   margin-bottom: var(--spacing-md);
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
+  max-width: 700px;
 }
 
 .heroSubtitle {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-base);
   font-weight: 400;
   line-height: 1.7;
-  color: var(--color-text-light);
+  color: rgba(255, 255, 255, 0.85);
   margin-bottom: var(--spacing-xl);
+  max-width: 560px;
 }
 
 /* CTA Buttons */
 .heroCta {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: var(--spacing-md);
 }
 
-/* Image Side */
-.heroImageSide {
-  position: relative;
-  padding: 0 var(--container-padding) var(--spacing-2xl);
+.heroCta .button.secondary,
+.heroCta a[class*="secondary"] {
+  border-color: rgba(255, 255, 255, 0.5);
+  color: var(--color-white);
 }
 
-.heroImageWrapper {
-  position: relative;
-  border-radius: var(--border-radius-xl);
-  overflow: hidden;
-  box-shadow: var(--shadow-xl);
-  aspect-ratio: 4 / 3;
+/* Scroll Hint */
+.heroScrollHint {
+  position: absolute;
+  z-index: 3;
+  bottom: var(--spacing-lg);
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.heroImage {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.heroScrollLine {
   display: block;
+  width: 1px;
+  height: 40px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.6), transparent);
+  animation: scrollPulse 2s ease-in-out infinite;
 }
 
-.heroImageOverlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, transparent 50%, rgba(172, 134, 153, 0.15) 100%);
-  pointer-events: none;
-}
-
-/* Decorative elements */
-.heroDecorRing {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 2px solid rgba(172, 134, 153, 0.2);
-  top: -40px;
-  right: -20px;
-  pointer-events: none;
-}
-
-.heroDecorDots {
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  bottom: 10px;
-  left: 0;
-  background-image: radial-gradient(circle, rgba(172, 134, 153, 0.3) 1.5px, transparent 1.5px);
-  background-size: 12px 12px;
-  pointer-events: none;
+@keyframes scrollPulse {
+  0%, 100% { opacity: 0.4; transform: scaleY(1); }
+  50% { opacity: 1; transform: scaleY(1.2); }
 }
 
 /* Responsive */
 @media (min-width: 768px) {
-  .heroInner {
-    flex-direction: row;
-    align-items: center;
-    min-height: calc(100vh - var(--header-height));
+  .heroContent {
+    padding-bottom: var(--spacing-4xl);
   }
 
-  .heroTextSide {
-    flex: 1;
-    padding: var(--spacing-3xl) var(--spacing-2xl) var(--spacing-3xl) var(--container-padding);
-  }
-
-  .heroImageSide {
-    flex: 1;
-    padding: var(--spacing-3xl) var(--container-padding) var(--spacing-3xl) 0;
-  }
-
-  .heroTitle {
-    font-size: var(--font-size-4xl);
-  }
-
-  .heroCta {
-    flex-direction: row;
-  }
-
-  .heroImageWrapper {
-    aspect-ratio: 3 / 4;
-  }
-
-  .heroDecorRing {
-    width: 280px;
-    height: 280px;
-    top: -60px;
-    right: -40px;
-  }
-
-  .heroDecorDots {
-    width: 100px;
-    height: 100px;
-    bottom: 20px;
-    left: -20px;
-  }
-}
-
-@media (min-width: 1024px) {
   .heroTitle {
     font-size: var(--font-size-5xl);
   }
 
   .heroSubtitle {
+    font-size: var(--font-size-lg);
+  }
+}
+
+@media (min-width: 1024px) {
+  .heroTitle {
+    font-size: clamp(var(--font-size-5xl), 5vw, 4rem);
+  }
+
+  .heroSubtitle {
     font-size: var(--font-size-xl);
-  }
-
-  .heroTextContent {
-    max-width: 540px;
-  }
-
-  .heroDecorRing {
-    width: 340px;
-    height: 340px;
-    top: -80px;
-    right: -60px;
   }
 }
 
