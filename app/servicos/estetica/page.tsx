@@ -18,21 +18,6 @@ export default function EsteticaPage() {
       "Correção de imperfeições e manchas",
       "Aumento da autoestima e confiança",
     ],
-    images: [
-      {
-        src: "/images/beautiful-white-smile-teeth-whitening-before-and-a.png",
-        alt: "Antes e depois do clareamento dental",
-        fit: "contain",
-      },
-      {
-        src: "/lentes-contato-dental-transformacao-sorriso.jpg",
-        alt: "Lentes de contato dentais",
-      },
-      {
-        src: "/planejamento-digital-sorriso-dsd.jpg",
-        alt: "Planejamento digital do sorriso",
-      },
-    ],
     faqs: [
       {
         question: "Quanto tempo dura o clareamento dental?",

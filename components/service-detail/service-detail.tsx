@@ -10,12 +10,6 @@ export interface ServiceDetailProps {
   heroImagePosition?: string
   description: string
   benefits: string[]
-  images: Array<{
-    src: string
-    alt: string
-    fit?: "cover" | "contain"
-    position?: string
-  }>
   faqs: Array<{
     question: string
     answer: string
@@ -32,7 +26,6 @@ export function ServiceDetail({
   heroImagePosition = "center",
   description,
   benefits,
-  images,
   faqs,
   ctaText = "Agendar Consulta",
   ctaLink = "/#contato",
@@ -73,25 +66,6 @@ export function ServiceDetail({
               <div key={index} className={`${styles.benefitCard} slide-left anim-delay-${(index % 4) + 1}`.trim()}>
                 <div className={styles.benefitNumber}>{String(index + 1).padStart(2, "0")}</div>
                 <p className={styles.benefitText}>{benefit}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Gallery Section */}
-      <section className={`${styles.gallery} fade-in`}>
-        <div className="container">
-          <h2 className={styles.sectionTitle}>Galeria</h2>
-          <div className={styles.galleryGrid}>
-            {images.map((image, index) => (
-              <div key={index} className={`${styles.galleryItem} zoom-in anim-delay-${(index % 4) + 1}`.trim()}>
-                <img
-                  src={image.src || "/placeholder.svg"}
-                  alt={image.alt}
-                  className={styles.galleryImage}
-                  style={{ objectFit: image.fit ?? "cover", objectPosition: image.position ?? "center" }}
-                />
               </div>
             ))}
           </div>

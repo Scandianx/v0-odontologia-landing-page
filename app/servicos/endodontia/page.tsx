@@ -17,20 +17,6 @@ export default function EndodontiaPage() {
       "Maior durabilidade com tecnologia de ponta",
       "Recuperação rápida e eficaz",
     ],
-    images: [
-      {
-        src: "/images/dental-root-canal-treatment-modern-equipment-profe.png",
-        alt: "Tratamento de canal com equipamento moderno",
-      },
-      {
-        src: "/endodontia-procedimento-dentista.jpg",
-        alt: "Procedimento endodôntico",
-      },
-      {
-        src: "/dente-restaurado-pos-canal.jpg",
-        alt: "Dente restaurado após tratamento de canal",
-      },
-    ],
     faqs: [
       {
         question: "O tratamento de canal dói?",

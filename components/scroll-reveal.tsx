@@ -16,13 +16,24 @@ function registerRevealElements(observer: IntersectionObserver) {
   }
 }
 
+function revealElementsInView(observer: IntersectionObserver) {
+  const elements = document.querySelectorAll<HTMLElement>(REVEAL_SELECTOR)
+  const viewHeight = window.innerHeight || document.documentElement.clientHeight
+
+  for (const element of elements) {
+    if (element.classList.contains("show")) continue
+    const rect = element.getBoundingClientRect()
+    const inView = rect.bottom > 0 && rect.top < viewHeight * 0.9
+    if (!inView) continue
+    element.classList.add("show")
+    observer.unobserve(element)
+  }
+}
+
 export function ScrollReveal() {
   const pathname = usePathname()
 
   useEffect(() => {
-    const root = document.documentElement
-    root.classList.add("scroll-reveal")
-
     const observer = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
@@ -36,9 +47,11 @@ export function ScrollReveal() {
     )
 
     registerRevealElements(observer)
+    revealElementsInView(observer)
 
     const mutationObserver = new MutationObserver(() => {
       registerRevealElements(observer)
+      revealElementsInView(observer)
     })
 
     mutationObserver.observe(document.body, { childList: true, subtree: true })
@@ -51,4 +64,3 @@ export function ScrollReveal() {
 
   return null
 }
-

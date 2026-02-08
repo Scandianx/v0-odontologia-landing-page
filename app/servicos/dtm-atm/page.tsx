@@ -17,20 +17,6 @@ export default function DtmAtmPage() {
       "Diminuição de zumbidos no ouvido relacionados à DTM",
       "Correção de hábitos parafuncionais prejudiciais",
     ],
-    images: [
-      {
-        src: "/images/jaw-pain-facial-massage-therapy-professional-healt.png",
-        alt: "Avaliação da articulação temporomandibular",
-      },
-      {
-        src: "/placa-miorrelaxante-tratamento-dtm.jpg",
-        alt: "Placa miorrelaxante para tratamento de DTM",
-      },
-      {
-        src: "/exame-atm-diagnostico-profissional.jpg",
-        alt: "Exame detalhado da ATM",
-      },
-    ],
     faqs: [
       {
         question: "Quais são os sintomas da DTM?",

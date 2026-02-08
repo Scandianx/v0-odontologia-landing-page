@@ -18,21 +18,6 @@ export default function ReabilitacaoOralPage() {
       "Materiais de alta qualidade e durabilidade",
       "Acompanhamento contínuo e manutenção",
     ],
-    images: [
-      {
-        src: "/images/dental-crown-prosthesis-oral-rehabilitation-modern.png",
-        alt: "Coroa e prótese dentária moderna",
-        fit: "contain",
-      },
-      {
-        src: "/protese-total-sorriso-completo.jpg",
-        alt: "Prótese total - sorriso reabilitado",
-      },
-      {
-        src: "/protese-parcial-ponte-fixa.jpg",
-        alt: "Prótese parcial fixa (ponte)",
-      },
-    ],
     faqs: [
       {
         question: "Qual a diferença entre prótese fixa e removível?",

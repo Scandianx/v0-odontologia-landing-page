@@ -17,20 +17,6 @@ export default function OrtodontiaPage() {
       "Prevenção de problemas futuros como desgaste dentário e dores na ATM",
       "Facilita a higienização e previne cáries",
     ],
-    images: [
-      {
-        src: "/images/modern-dental-braces-orthodontic-treatment-close-u.png",
-        alt: "Aparelho ortodôntico autoligado",
-      },
-      {
-        src: "/paciente-sorrindo-com-aparelho-ortodontico.jpg",
-        alt: "Paciente satisfeito com tratamento ortodôntico",
-      },
-      {
-        src: "/antes-e-depois-ortodontia-sorriso-alinhado.jpg",
-        alt: "Antes e depois do tratamento ortodôntico",
-      },
-    ],
     faqs: [
       {
         question: "Quanto tempo dura o tratamento ortodôntico?",

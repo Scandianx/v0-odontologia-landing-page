@@ -17,20 +17,6 @@ export default function BruxismoPage() {
       "Prevenção de problemas futuros na ATM",
       "Placas personalizadas confortáveis",
     ],
-    images: [
-      {
-        src: "/images/dental-night-guard-bruxism-treatment-oral-health-d.png",
-        alt: "Placa de proteção para bruxismo",
-      },
-      {
-        src: "/dentes-desgastados-bruxismo.jpg",
-        alt: "Desgaste dental causado por bruxismo",
-      },
-      {
-        src: "/paciente-usando-placa-bruxismo.jpg",
-        alt: "Paciente usando placa para bruxismo",
-      },
-    ],
     faqs: [
       {
         question: "Como sei se tenho bruxismo?",
