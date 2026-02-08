@@ -29,7 +29,7 @@ export function ServiceDetail({
   images,
   faqs,
   ctaText = "Agendar Consulta",
-  ctaLink = "#contato",
+  ctaLink = "/#contato",
 }: ServiceDetailProps) {
   return (
     <div className={styles.serviceDetail}>

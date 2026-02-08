@@ -54,7 +54,7 @@ export default function OrtodontiaPage() {
       },
     ],
     ctaText: "Agende sua Avaliação",
-    ctaLink: "#contato",
+    ctaLink: "/#contato",
   }
 
   return (

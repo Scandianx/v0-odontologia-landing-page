@@ -1,4 +1,5 @@
 import styles from "./footer.module.css"
+import Link from "next/link"
 
 export function Footer() {
   return (
@@ -13,11 +14,11 @@ export function Footer() {
           <div className={styles.links}>
             <h4>Links Rápidos</h4>
             <nav className={styles.linksList}>
-              <a href="#inicio">Início</a>
-              <a href="#servicos">Serviços</a>
-              <a href="#sobre">Sobre</a>
-              <a href="#duvidas">Dúvidas</a>
-              <a href="#contato">Contato</a>
+              <Link href="/#inicio">Início</Link>
+              <Link href="/#servicos">Serviços</Link>
+              <Link href="/#sobre">Sobre</Link>
+              <Link href="/#duvidas">Dúvidas</Link>
+              <Link href="/#contato">Contato</Link>
             </nav>
           </div>
 

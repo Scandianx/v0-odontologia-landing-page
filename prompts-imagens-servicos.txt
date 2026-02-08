@@ -1,0 +1,207 @@
+IMAGENS + PROMPTS (Serviços)
+
+Observações gerais para todos os prompts:
+- Foto realista, estilo fotografia profissional, alta resolução, iluminação suave e natural.
+- Sem texto, sem marcas, sem logotipos, sem watermark.
+- Ambiente de consultório odontológico moderno e acolhedor, tons neutros e limpos.
+
+============================================================
+HOME (Seção "Nossos Serviços")
+============================================================
+
+Local: Home > Seção "Nossos Serviços" > Card "Ortodontia com Aparelho Autoligado"
+Arquivo: public/modern-dental-braces-orthodontic-treatment-close-u.jpg
+Usado como: /modern-dental-braces-orthodontic-treatment-close-u.jpg
+Prompt (IA):
+Fotografia macro realista de um sorriso com aparelho ortodôntico autoligado (brackets metálicos discretos), foco nítido nos dentes, lábios naturais, iluminação suave de consultório, fundo levemente desfocado, sem texto e sem logos.
+
+Local: Home > Seção "Nossos Serviços" > Card "DTM / Dor Orofacial / ATM"
+Arquivo: public/jaw-pain-facial-massage-therapy-professional-healt.jpg
+Usado como: /jaw-pain-facial-massage-therapy-professional-healt.jpg
+Prompt (IA):
+Fotografia realista de avaliação de DTM: profissional de saúde com luvas palpando suavemente a articulação temporomandibular na lateral do rosto do paciente, expressão de leve desconforto, enquadramento meio-close, consultório limpo, iluminação suave, sem texto e sem logos.
+
+Local: Home > Seção "Nossos Serviços" > Card "Endodontia (Tratamento de Canal)"
+Arquivo: public/dental-root-canal-treatment-modern-equipment-profe.jpg
+Usado como: /dental-root-canal-treatment-modern-equipment-profe.jpg
+Prompt (IA):
+Fotografia realista de procedimento endodôntico (tratamento de canal) em consultório: paciente com isolamento absoluto (dique de borracha), dentista usando luvas e instrumentais endodônticos modernos, iluminação de refletor, clima clínico e seguro, sem sangue explícito, sem texto e sem logos.
+
+Local: Home > Seção "Nossos Serviços" > Card "Estética do Sorriso"
+Arquivo: public/beautiful-white-smile-teeth-whitening-before-and-a.jpg
+Usado como: /beautiful-white-smile-teeth-whitening-before-and-a.jpg
+Prompt (IA):
+Fotografia realista comparativa “antes e depois” do clareamento dental: duas fotos lado a lado do mesmo sorriso (sem texto), à esquerda dentes em tom mais amarelado, à direita dentes mais claros e naturais, iluminação uniforme, fundo neutro, sem logos e sem marcações.
+
+Local: Home > Seção "Nossos Serviços" > Card "Bruxismo"
+Arquivo: public/dental-night-guard-bruxism-treatment-oral-health-d.jpg
+Usado como: /dental-night-guard-bruxism-treatment-oral-health-d.jpg
+Prompt (IA):
+Fotografia macro realista de uma placa de bruxismo transparente (moldeira/placa noturna) posicionada sobre um modelo dental ou sobre dentes reais, material translúcido bem definido, iluminação suave, fundo limpo de consultório, sem texto e sem logos.
+
+Local: Home > Seção "Nossos Serviços" > Card "Reabilitação Oral"
+Arquivo: public/dental-crown-prosthesis-oral-rehabilitation-modern.jpg
+Usado como: /dental-crown-prosthesis-oral-rehabilitation-modern.jpg
+Prompt (IA):
+Fotografia realista de reabilitação oral com prótese/coroa: close em uma coroa dentária cerâmica (zirconia/porcelana) ao lado de um modelo dental, aparência muito natural, tons de esmalte realistas, iluminação de estúdio clínica, sem texto e sem logos.
+
+============================================================
+PÁGINAS DE SERVIÇO (Galeria + Hero)
+============================================================
+
+--- /servicos/ortodontia (Ortodontia) ---
+
+Local: Página /servicos/ortodontia > Hero
+Arquivo: public/modern-dental-braces-orthodontic-treatment-close-u.jpg
+Usado como: /modern-dental-braces-orthodontic-treatment-close-u.jpg
+Prompt (IA):
+Fotografia macro realista de um sorriso com aparelho ortodôntico autoligado (brackets metálicos discretos), foco nítido nos dentes, lábios naturais, iluminação suave de consultório, fundo levemente desfocado, sem texto e sem logos.
+
+Local: Página /servicos/ortodontia > Galeria (imagem 1)
+Arquivo: public/modern-dental-braces-orthodontic-treatment-close-u.jpg
+Usado como: /modern-dental-braces-orthodontic-treatment-close-u.jpg
+Prompt (IA):
+Fotografia macro realista de um sorriso com aparelho ortodôntico autoligado (brackets metálicos discretos), foco nítido nos dentes, lábios naturais, iluminação suave de consultório, fundo levemente desfocado, sem texto e sem logos.
+
+Local: Página /servicos/ortodontia > Galeria (imagem 2)
+Arquivo: public/paciente-sorrindo-com-aparelho-ortodontico.jpg
+Usado como: /paciente-sorrindo-com-aparelho-ortodontico.jpg
+Prompt (IA):
+Fotografia realista de um paciente sorrindo com aparelho ortodôntico, expressão natural e confiante, enquadramento do sorriso e parte do rosto (sem identificar marca), fundo de consultório moderno desfocado, iluminação suave, sem texto e sem logos.
+
+Local: Página /servicos/ortodontia > Galeria (imagem 3)
+Arquivo: public/antes-e-depois-ortodontia-sorriso-alinhado.jpg
+Usado como: /antes-e-depois-ortodontia-sorriso-alinhado.jpg
+Prompt (IA):
+Fotografia realista “antes e depois” do alinhamento ortodôntico: duas imagens lado a lado do sorriso (sem texto), antes com dentes desalinhados e depois com dentes alinhados, tons naturais, iluminação uniforme e fundo neutro, sem logos.
+
+--- /servicos/dtm-atm (DTM / Dor Orofacial / ATM) ---
+
+Local: Página /servicos/dtm-atm > Hero
+Arquivo: public/jaw-pain-facial-massage-therapy-professional-healt.jpg
+Usado como: /jaw-pain-facial-massage-therapy-professional-healt.jpg
+Prompt (IA):
+Fotografia realista de avaliação de DTM: profissional de saúde com luvas palpando suavemente a articulação temporomandibular na lateral do rosto do paciente, expressão de leve desconforto, enquadramento meio-close, consultório limpo, iluminação suave, sem texto e sem logos.
+
+Local: Página /servicos/dtm-atm > Galeria (imagem 1)
+Arquivo: public/jaw-pain-facial-massage-therapy-professional-healt.jpg
+Usado como: /jaw-pain-facial-massage-therapy-professional-healt.jpg
+Prompt (IA):
+Fotografia realista de avaliação de DTM: profissional de saúde com luvas palpando suavemente a articulação temporomandibular na lateral do rosto do paciente, expressão de leve desconforto, enquadramento meio-close, consultório limpo, iluminação suave, sem texto e sem logos.
+
+Local: Página /servicos/dtm-atm > Galeria (imagem 2)
+Arquivo: public/placa-miorrelaxante-tratamento-dtm.jpg
+Usado como: /placa-miorrelaxante-tratamento-dtm.jpg
+Prompt (IA):
+Fotografia macro realista de uma placa miorrelaxante transparente posicionada em um modelo de arcada dentária, detalhe do material translúcido e do encaixe, fundo limpo, iluminação suave de consultório, sem texto e sem logos.
+
+Local: Página /servicos/dtm-atm > Galeria (imagem 3)
+Arquivo: public/exame-atm-diagnostico-profissional.jpg
+Usado como: /exame-atm-diagnostico-profissional.jpg
+Prompt (IA):
+Fotografia realista de exame clínico da ATM: dentista avaliando a abertura/fechamento mandibular e a região da articulação, luvas, consultório moderno, expressão neutra do paciente, iluminação suave, sem texto e sem logos.
+
+--- /servicos/endodontia (Endodontia / Canal) ---
+
+Local: Página /servicos/endodontia > Hero
+Arquivo: public/dental-root-canal-treatment-modern-equipment-profe.jpg
+Usado como: /dental-root-canal-treatment-modern-equipment-profe.jpg
+Prompt (IA):
+Fotografia realista de procedimento endodôntico (tratamento de canal) em consultório: paciente com isolamento absoluto (dique de borracha), dentista usando luvas e instrumentais endodônticos modernos, iluminação de refletor, clima clínico e seguro, sem sangue explícito, sem texto e sem logos.
+
+Local: Página /servicos/endodontia > Galeria (imagem 1)
+Arquivo: public/dental-root-canal-treatment-modern-equipment-profe.jpg
+Usado como: /dental-root-canal-treatment-modern-equipment-profe.jpg
+Prompt (IA):
+Fotografia realista de procedimento endodôntico (tratamento de canal) em consultório: paciente com isolamento absoluto (dique de borracha), dentista usando luvas e instrumentais endodônticos modernos, iluminação de refletor, clima clínico e seguro, sem sangue explícito, sem texto e sem logos.
+
+Local: Página /servicos/endodontia > Galeria (imagem 2)
+Arquivo: public/endodontia-procedimento-dentista.jpg
+Usado como: /endodontia-procedimento-dentista.jpg
+Prompt (IA):
+Fotografia realista de dentista realizando procedimento endodôntico com instrumentação rotatória/limas endodônticas, close na área do dente com isolamento, ambiente esterilizado e moderno, iluminação de consultório, sem texto e sem logos.
+
+Local: Página /servicos/endodontia > Galeria (imagem 3)
+Arquivo: public/dente-restaurado-pos-canal.jpg
+Usado como: /dente-restaurado-pos-canal.jpg
+Prompt (IA):
+Fotografia macro realista de um dente restaurado após tratamento de canal, mostrando restauração/coroa com aparência natural e brilho do esmalte, gengiva saudável, iluminação suave, sem texto e sem logos.
+
+--- /servicos/estetica (Estética do Sorriso) ---
+
+Local: Página /servicos/estetica > Hero
+Arquivo: public/beautiful-white-smile-teeth-whitening-before-and-a.jpg
+Usado como: /beautiful-white-smile-teeth-whitening-before-and-a.jpg
+Prompt (IA):
+Fotografia realista comparativa “antes e depois” do clareamento dental: duas fotos lado a lado do mesmo sorriso (sem texto), à esquerda dentes em tom mais amarelado, à direita dentes mais claros e naturais, iluminação uniforme, fundo neutro, sem logos e sem marcações.
+
+Local: Página /servicos/estetica > Galeria (imagem 1)
+Arquivo: public/beautiful-white-smile-teeth-whitening-before-and-a.jpg
+Usado como: /beautiful-white-smile-teeth-whitening-before-and-a.jpg
+Prompt (IA):
+Fotografia realista comparativa “antes e depois” do clareamento dental: duas fotos lado a lado do mesmo sorriso (sem texto), à esquerda dentes em tom mais amarelado, à direita dentes mais claros e naturais, iluminação uniforme, fundo neutro, sem logos e sem marcações.
+
+Local: Página /servicos/estetica > Galeria (imagem 2)
+Arquivo: public/lentes-contato-dental-transformacao-sorriso.jpg
+Usado como: /lentes-contato-dental-transformacao-sorriso.jpg
+Prompt (IA):
+Fotografia macro realista de sorriso com lentes de contato dental (facetas ultrafinas) com aparência muito natural, cor e translucidez realistas, sem “branco estourado”, gengiva saudável, iluminação suave de consultório, sem texto e sem logos.
+
+Local: Página /servicos/estetica > Galeria (imagem 3)
+Arquivo: public/planejamento-digital-sorriso-dsd.jpg
+Usado como: /planejamento-digital-sorriso-dsd.jpg
+Prompt (IA):
+Fotografia realista de planejamento digital do sorriso (DSD): dentista em consultório analisando um sorriso em um notebook/tablet com gráficos discretos (sem texto legível), ferramentas de planejamento na tela desfocadas, iluminação suave, sem logos.
+
+--- /servicos/bruxismo (Bruxismo) ---
+
+Local: Página /servicos/bruxismo > Hero
+Arquivo: public/dental-night-guard-bruxism-treatment-oral-health-d.jpg
+Usado como: /dental-night-guard-bruxism-treatment-oral-health-d.jpg
+Prompt (IA):
+Fotografia macro realista de uma placa de bruxismo transparente (moldeira/placa noturna) posicionada sobre um modelo dental ou sobre dentes reais, material translúcido bem definido, iluminação suave, fundo limpo de consultório, sem texto e sem logos.
+
+Local: Página /servicos/bruxismo > Galeria (imagem 1)
+Arquivo: public/dental-night-guard-bruxism-treatment-oral-health-d.jpg
+Usado como: /dental-night-guard-bruxism-treatment-oral-health-d.jpg
+Prompt (IA):
+Fotografia macro realista de uma placa de bruxismo transparente (moldeira/placa noturna) posicionada sobre um modelo dental ou sobre dentes reais, material translúcido bem definido, iluminação suave, fundo limpo de consultório, sem texto e sem logos.
+
+Local: Página /servicos/bruxismo > Galeria (imagem 2)
+Arquivo: public/dentes-desgastados-bruxismo.jpg
+Usado como: /dentes-desgastados-bruxismo.jpg
+Prompt (IA):
+Fotografia macro realista de desgaste dental por bruxismo: superfícies oclusais com sinais de atrição/achatamento, imagem clínica limpa e educativa (sem sangue), iluminação uniforme, fundo neutro, sem texto e sem logos.
+
+Local: Página /servicos/bruxismo > Galeria (imagem 3)
+Arquivo: public/paciente-usando-placa-bruxismo.jpg
+Usado como: /paciente-usando-placa-bruxismo.jpg
+Prompt (IA):
+Fotografia realista de paciente colocando ou mostrando uma placa de bruxismo transparente, enquadramento em mãos e sorriso (sem identificação), ambiente de consultório moderno desfocado, iluminação suave, sem texto e sem logos.
+
+--- /servicos/reabilitacao-oral (Reabilitação Oral) ---
+
+Local: Página /servicos/reabilitacao-oral > Hero
+Arquivo: public/dental-crown-prosthesis-oral-rehabilitation-modern.jpg
+Usado como: /dental-crown-prosthesis-oral-rehabilitation-modern.jpg
+Prompt (IA):
+Fotografia realista de reabilitação oral com prótese/coroa: close em uma coroa dentária cerâmica (zirconia/porcelana) ao lado de um modelo dental, aparência muito natural, tons de esmalte realistas, iluminação de estúdio clínica, sem texto e sem logos.
+
+Local: Página /servicos/reabilitacao-oral > Galeria (imagem 1)
+Arquivo: public/dental-crown-prosthesis-oral-rehabilitation-modern.jpg
+Usado como: /dental-crown-prosthesis-oral-rehabilitation-modern.jpg
+Prompt (IA):
+Fotografia realista de reabilitação oral com prótese/coroa: close em uma coroa dentária cerâmica (zirconia/porcelana) ao lado de um modelo dental, aparência muito natural, tons de esmalte realistas, iluminação de estúdio clínica, sem texto e sem logos.
+
+Local: Página /servicos/reabilitacao-oral > Galeria (imagem 2)
+Arquivo: public/protese-total-sorriso-completo.jpg
+Usado como: /protese-total-sorriso-completo.jpg
+Prompt (IA):
+Fotografia realista de reabilitação com prótese total: sorriso natural e acolhedor de um adulto/idoso, dentes com aparência realista (não excessivamente brancos), iluminação suave, fundo neutro ou consultório desfocado, sem texto e sem logos.
+
+Local: Página /servicos/reabilitacao-oral > Galeria (imagem 3)
+Arquivo: public/protese-parcial-ponte-fixa.jpg
+Usado como: /protese-parcial-ponte-fixa.jpg
+Prompt (IA):
+Fotografia macro realista de ponte fixa/prótese parcial sobre modelo dental, mostrando a adaptação e a anatomia dos dentes, material cerâmico natural, iluminação suave, fundo limpo, sem texto e sem logos.
+

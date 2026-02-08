@@ -54,7 +54,7 @@ export default function EndodontiaPage() {
       },
     ],
     ctaText: "Agende sua Consulta",
-    ctaLink: "#contato",
+    ctaLink: "/#contato",
   }
 
   return (

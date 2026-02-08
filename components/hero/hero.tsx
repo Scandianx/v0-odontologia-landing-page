@@ -24,7 +24,7 @@ export function Hero() {
             >
               Agendar Consulta
             </Button>
-            <Button href="#servicos" variant="secondary" size="large">
+            <Button href="/#servicos" variant="secondary" size="large">
               Ver Serviços
             </Button>
           </div>

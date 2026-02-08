@@ -1,14 +1,15 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import Link from "next/link"
 import styles from "./header.module.css"
 
 const navItems = [
-  { label: "Início", href: "#inicio" },
-  { label: "Serviços", href: "#servicos" },
-  { label: "Sobre", href: "#sobre" },
-  { label: "Dúvidas", href: "#duvidas" },
-  { label: "Contato", href: "#contato" },
+  { label: "Início", href: "/#inicio" },
+  { label: "Serviços", href: "/#servicos" },
+  { label: "Sobre", href: "/#sobre" },
+  { label: "Dúvidas", href: "/#duvidas" },
+  { label: "Contato", href: "/#contato" },
 ]
 
 export function Header() {
@@ -30,21 +31,21 @@ export function Header() {
   return (
     <header className={`${styles.header} ${isScrolled ? styles.headerScrolled : ""}`}>
       <div className={styles.headerContent}>
-        <a href="#inicio" className={styles.logo}>
+        <Link href="/#inicio" className={styles.logo}>
           <img
             src="/images/logotipo-jalimar-removebg-preview.png"
             alt="Jalimar Martins - Odontologia, DTM e Dor Orofacial"
             className={styles.logoImage}
           />
-        </a>
+        </Link>
 
         <nav className={styles.nav} aria-label="Navegação principal">
           <ul className={styles.navList}>
             {navItems.map((item) => (
               <li key={item.href}>
-                <a href={item.href} className={styles.navLink}>
+                <Link href={item.href} className={styles.navLink}>
                   {item.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -71,9 +72,9 @@ export function Header() {
           <ul className={styles.mobileNavList}>
             {navItems.map((item) => (
               <li key={item.href}>
-                <a href={item.href} className={styles.mobileNavLink} onClick={handleNavClick}>
+                <Link href={item.href} className={styles.mobileNavLink} onClick={handleNavClick}>
                   {item.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

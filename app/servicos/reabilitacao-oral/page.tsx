@@ -54,7 +54,7 @@ export default function ReabilitacaoOralPage() {
       },
     ],
     ctaText: "Agende sua Consulta",
-    ctaLink: "#contato",
+    ctaLink: "/#contato",
   }
 
   return (
