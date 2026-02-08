@@ -5,7 +5,7 @@ export function Sobre() {
     <section id="sobre" className={styles.section}>
       <div className={styles.container}>
         <div className={styles.content}>
-          <div className={styles.textContent}>
+          <div className={`${styles.textContent} slide-left`}>
             <span className={styles.subtitle}>Sobre Nós</span>
             <h2 className={styles.title}>Cuidado e excelência em cada detalhe</h2>
             <p className={styles.description}>
@@ -16,7 +16,7 @@ export function Sobre() {
             </p>
           </div>
 
-          <div className={styles.professionalCard}>
+          <div className={`${styles.professionalCard} zoom-in anim-delay-1`}>
             <div className={styles.imageWrapper}>
               <img src="/images/jalimar-foto.jpeg" alt="Dra. Jalimar Martins - Cirurgiã-Dentista" loading="lazy" />
             </div>

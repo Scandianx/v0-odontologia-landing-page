@@ -5,16 +5,16 @@ export function Hero() {
   return (
     <section id="inicio" className={styles.hero}>
       <div className={styles.heroContent}>
-        <div className={styles.heroText}>
-          <h1 className={styles.headline}>
+        <div className={`${styles.heroText} fade-in`}>
+          <h1 className={`${styles.headline} drop-in`}>
             Seu sorriso merece <span className={styles.headlineAccent}>cuidado especial</span>
           </h1>
-          <p className={styles.subtitle}>
+          <p className={`${styles.subtitle} fade-in anim-delay-1`}>
             Odontologia humanizada com foco em conforto, estética natural e resultados que transformam. Cada tratamento
             é planejado de forma individual para você.
           </p>
 
-          <div className={styles.ctaGroup}>
+          <div className={`${styles.ctaGroup} elastic-in anim-delay-2`}>
             <Button
               href="https://wa.me/5522999956389"
               target="_blank"
@@ -29,7 +29,7 @@ export function Hero() {
             </Button>
           </div>
 
-          <div className={styles.trustBadges}>
+          <div className={`${styles.trustBadges} fade-in anim-delay-3`}>
             <div className={styles.trustItem}>
               <svg className={styles.trustIcon} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
@@ -66,7 +66,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className={styles.heroImage}>
+        <div className={`${styles.heroImage} zoom-in anim-delay-1`}>
           <img
             src="/images/consultorio-jalimar.jpeg"
             alt="Interior do consultório odontológico Dra. Jalimar Martins com equipamentos modernos"

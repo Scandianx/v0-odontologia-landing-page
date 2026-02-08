@@ -46,14 +46,17 @@ export function FAQ() {
   return (
     <section id="duvidas" className={styles.section}>
       <div className={styles.container}>
-        <header className={styles.header}>
+        <header className={`${styles.header} fade-in`}>
           <span className={styles.subtitle}>Dúvidas Frequentes</span>
           <h2 className={styles.title}>Perguntas e Respostas</h2>
         </header>
 
         <div className={styles.accordion}>
           {faqItems.map((item, index) => (
-            <div key={index} className={`${styles.item} ${openIndex === index ? styles.open : ""}`}>
+            <div
+              key={index}
+              className={`${styles.item} fade-in anim-delay-${(index % 4) + 1} ${openIndex === index ? styles.open : ""}`}
+            >
               <button
                 className={styles.trigger}
                 onClick={() => toggleItem(index)}

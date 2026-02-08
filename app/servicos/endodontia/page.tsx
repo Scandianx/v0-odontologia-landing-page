@@ -6,7 +6,7 @@ export default function EndodontiaPage() {
   const serviceData = {
     title: "Endodontia (Tratamento de Canal)",
     subtitle: "Salve seu dente natural com técnicas modernas e procedimentos confortáveis",
-    heroImage: "/dental-root-canal-treatment-modern-equipment-profe.jpg",
+    heroImage: "/images/dental-root-canal-treatment-modern-equipment-profe.png",
     description:
       "A endodontia é a especialidade que trata a polpa dentária e os canais radiculares. Quando há infecção ou inflamação profunda no dente, o tratamento de canal é a solução para preservar o dente natural e evitar a extração. Utilizamos tecnologia de ponta, incluindo localizadores apicais eletrônicos e instrumentos rotatórios, que tornam o procedimento mais rápido, preciso e confortável. Com anestesia adequada, o tratamento é indolor e pode ser realizado em uma ou mais sessões, dependendo da complexidade do caso.",
     benefits: [
@@ -19,7 +19,7 @@ export default function EndodontiaPage() {
     ],
     images: [
       {
-        src: "/dental-root-canal-treatment-modern-equipment-profe.jpg",
+        src: "/images/dental-root-canal-treatment-modern-equipment-profe.png",
         alt: "Tratamento de canal com equipamento moderno",
       },
       {

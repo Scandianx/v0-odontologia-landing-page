@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata, Viewport } from "next"
 import { Poppins } from "next/font/google"
 import "./globals.css"
+import { ScrollReveal } from "@/components/scroll-reveal"
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -38,7 +39,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        <ScrollReveal />
+        <noscript>
+          <style>{`
+            .zoom-in, .drop-in, .slide-left, .fade-in, .blur-in, .light-in, .skew-in, .elastic-in {
+              opacity: 1 !important;
+              transform: none !important;
+              filter: none !important;
+              transition: none !important;
+            }
+          `}</style>
+        </noscript>
+        {children}
+      </body>
     </html>
   )
 }

@@ -6,7 +6,8 @@ export default function EsteticaPage() {
   const serviceData = {
     title: "Estética do Sorriso",
     subtitle: "Transforme seu sorriso com naturalidade e harmonia",
-    heroImage: "/beautiful-white-smile-teeth-whitening-before-and-a.jpg",
+    heroImage: "/images/beautiful-white-smile-teeth-whitening-before-and-a.png",
+    heroImageFit: "contain",
     description:
       "A estética do sorriso combina arte e ciência para criar sorrisos naturais e harmoniosos. Oferecemos clareamento dental supervisionado, que garante resultados seguros e duradouros, e lentes de contato dentais ultrafinas, que transformam o sorriso de forma minimamente invasiva. Cada tratamento é planejado digitalmente para garantir que o resultado final esteja em perfeita harmonia com o rosto, lábios e gengivas do paciente. Nosso objetivo é realçar a beleza natural de cada sorriso, respeitando a individualidade e expectativas de cada pessoa.",
     benefits: [
@@ -19,8 +20,9 @@ export default function EsteticaPage() {
     ],
     images: [
       {
-        src: "/beautiful-white-smile-teeth-whitening-before-and-a.jpg",
+        src: "/images/beautiful-white-smile-teeth-whitening-before-and-a.png",
         alt: "Antes e depois do clareamento dental",
+        fit: "contain",
       },
       {
         src: "/lentes-contato-dental-transformacao-sorriso.jpg",

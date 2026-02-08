@@ -6,7 +6,8 @@ export default function ReabilitacaoOralPage() {
   const serviceData = {
     title: "Reabilitação Oral",
     subtitle: "Restaure função, estética e saúde bucal com próteses de qualidade",
-    heroImage: "/dental-crown-prosthesis-oral-rehabilitation-modern.jpg",
+    heroImage: "/images/dental-crown-prosthesis-oral-rehabilitation-modern.png",
+    heroImageFit: "contain",
     description:
       "A reabilitação oral é a área que devolve função mastigatória, estética e saúde bucal através de próteses dentárias, coroas, pontes e implantes. É indicada para pacientes que perderam dentes ou têm dentes muito desgastados ou comprometidos. Realizamos planejamento completo do caso, desde a avaliação inicial até a confecção e adaptação das próteses, utilizando materiais de alta qualidade que proporcionam naturalidade e durabilidade. Acompanhamos nossos pacientes continuamente para garantir a longevidade e o sucesso do tratamento.",
     benefits: [
@@ -19,8 +20,9 @@ export default function ReabilitacaoOralPage() {
     ],
     images: [
       {
-        src: "/dental-crown-prosthesis-oral-rehabilitation-modern.jpg",
+        src: "/images/dental-crown-prosthesis-oral-rehabilitation-modern.png",
         alt: "Coroa e prótese dentária moderna",
+        fit: "contain",
       },
       {
         src: "/protese-total-sorriso-completo.jpg",

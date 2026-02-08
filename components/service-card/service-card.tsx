@@ -5,13 +5,29 @@ interface ServiceCardProps {
   description: string
   image: string
   href?: string
+  className?: string
+  imageFit?: "cover" | "contain"
+  imagePosition?: string
 }
 
-export function ServiceCard({ title, description, image, href = "#" }: ServiceCardProps) {
+export function ServiceCard({
+  title,
+  description,
+  image,
+  href = "#",
+  className = "",
+  imageFit = "cover",
+  imagePosition = "center",
+}: ServiceCardProps) {
   return (
-    <article className={styles.card}>
+    <article className={`${styles.card} ${className}`.trim()}>
       <div className={styles.imageWrapper}>
-        <img src={image || "/placeholder.svg"} alt={title} className={styles.image} />
+        <img
+          src={image || "/placeholder.svg"}
+          alt={title}
+          className={styles.image}
+          style={{ objectFit: imageFit, objectPosition: imagePosition }}
+        />
         <div className={styles.overlay} />
       </div>
       <div className={styles.content}>
