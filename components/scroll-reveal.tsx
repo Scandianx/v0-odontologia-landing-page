@@ -6,16 +6,6 @@ import { usePathname } from "next/navigation"
 const REVEAL_SELECTOR =
   ".zoom-in, .drop-in, .slide-left, .fade-in, .blur-in, .light-in, .skew-in, .elastic-in"
 
-function registerRevealElements(observer: IntersectionObserver) {
-  const elements = document.querySelectorAll<HTMLElement>(REVEAL_SELECTOR)
-
-  for (const element of elements) {
-    if (element.dataset.revealObserved === "1") continue
-    element.dataset.revealObserved = "1"
-    observer.observe(element)
-  }
-}
-
 function revealElementsInView(observer: IntersectionObserver) {
   const elements = document.querySelectorAll<HTMLElement>(REVEAL_SELECTOR)
   const viewHeight = window.innerHeight || document.documentElement.clientHeight
@@ -34,6 +24,8 @@ export function ScrollReveal() {
   const pathname = usePathname()
 
   useEffect(() => {
+    const animated = document.querySelectorAll<HTMLElement>(REVEAL_SELECTOR)
+
     const observer = new IntersectionObserver(
       (entries) => {
         const visible = entries
@@ -54,21 +46,13 @@ export function ScrollReveal() {
           observer.unobserve(item.element)
         }
       },
-      { threshold: 0.15, rootMargin: "0px 0px -10% 0px" },
+      { threshold: 0.2 },
     )
 
-    registerRevealElements(observer)
+    animated.forEach((element) => observer.observe(element))
     revealElementsInView(observer)
 
-    const mutationObserver = new MutationObserver(() => {
-      registerRevealElements(observer)
-      revealElementsInView(observer)
-    })
-
-    mutationObserver.observe(document.body, { childList: true, subtree: true })
-
     return () => {
-      mutationObserver.disconnect()
       observer.disconnect()
     }
   }, [pathname])

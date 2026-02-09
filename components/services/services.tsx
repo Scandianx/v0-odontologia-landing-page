@@ -42,7 +42,7 @@ const services = [
     title: "Reabilitação Oral",
     description:
       "Próteses e coroas para restaurar função, estética e saúde bucal. Acompanhamento contínuo para manutenção adequada.",
-    image: "/images/dental-crown-prosthesis-oral-rehabilitation-modern.png",
+    image: "/images/dental-crown-prosthesis-oral-rehabilitation-modern.jpeg",
     imageFit: "contain",
     href: "/servicos/reabilitacao-oral",
   },
