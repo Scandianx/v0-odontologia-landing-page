@@ -36,11 +36,22 @@ export function ScrollReveal() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        for (const entry of entries) {
-          if (!entry.isIntersecting) continue
-          const element = entry.target as HTMLElement
-          element.classList.add("show")
-          observer.unobserve(element)
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .map((entry) => {
+            const element = entry.target as HTMLElement
+            const rect = element.getBoundingClientRect()
+            return { element, rect }
+          })
+          .sort((a, b) => {
+            const topDelta = a.rect.top - b.rect.top
+            if (Math.abs(topDelta) > 8) return topDelta
+            return a.rect.left - b.rect.left
+          })
+
+        for (const item of visible) {
+          item.element.classList.add("show")
+          observer.unobserve(item.element)
         }
       },
       { threshold: 0.15, rootMargin: "0px 0px -10% 0px" },

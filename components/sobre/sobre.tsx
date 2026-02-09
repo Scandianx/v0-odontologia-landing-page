@@ -29,6 +29,20 @@ export function Sobre() {
               </p>
             </div>
           </div>
+
+          <div className={`${styles.professionalCard} zoom-in anim-delay-2`}>
+            <div className={styles.imageWrapper}>
+              <img src="/images/2-dentista.png" alt="Dra. Daniela - Cirurgiã-Dentista" loading="lazy" />
+            </div>
+            <div className={styles.info}>
+              <h3>Dra. Daniela</h3>
+              <p className={styles.specialty}>Especialista em Endodontia (UFF)</p>
+              <p className={styles.bio}>
+                Especialista em Endodontia formada pela UFF, a Dra. Daniela atua com técnicas modernas para tratamento de
+                canal, priorizando precisão, segurança e conforto em todas as etapas do atendimento.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
