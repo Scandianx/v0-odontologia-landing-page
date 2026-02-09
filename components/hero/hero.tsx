@@ -69,7 +69,7 @@ export function Hero() {
 
         <div className={`${styles.heroImage} zoom-in anim-delay-1`}>
           <img
-            src={withBasePath("/images/consultorio-jalimar.jpeg")}
+            src={withBasePath("/consultorio-jalimar.jpeg")}
             alt="Interior do consultório odontológico Dra. Jalimar Martins com equipamentos modernos"
             loading="eager"
           />

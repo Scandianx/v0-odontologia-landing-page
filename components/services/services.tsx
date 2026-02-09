@@ -7,28 +7,28 @@ const services = [
     title: "Ortodontia com Aparelho Autoligado",
     description:
       "Tratamento ortodôntico com mais conforto, melhor higienização, resultados previsíveis e menos emergências ao longo do tratamento.",
-    image: withBasePath("/images/modern-dental-braces-orthodontic-treatment-close-u.png"),
+    image: withBasePath("/modern-dental-braces-orthodontic-treatment-close-u.png"),
     href: "/servicos/ortodontia",
   },
   {
     title: "DTM / Dor Orofacial / ATM",
     description:
       "Avaliação e tratamento de dores na região da face, mandíbula e articulação. Sintomas muitas vezes confundidos com cefaleia ou sinusite.",
-    image: withBasePath("/images/jaw-pain-facial-massage-therapy-professional-healt.png"),
+    image: withBasePath("/jaw-pain-facial-massage-therapy-professional-healt.png"),
     href: "/servicos/dtm-atm",
   },
   {
     title: "Endodontia (Tratamento de Canal)",
     description:
       "Preservação do dente natural com técnicas modernas e seguras. Procedimento confortável que elimina a dor e salva seu dente.",
-    image: withBasePath("/images/dental-root-canal-treatment-modern-equipment-profe.png"),
+    image: withBasePath("/dental-root-canal-treatment-modern-equipment-profe.png"),
     href: "/servicos/endodontia",
   },
   {
     title: "Estética do Sorriso",
     description:
       "Clareamento dental supervisionado e lentes de contato com resultado natural. Transformação do sorriso com planejamento personalizado.",
-    image: withBasePath("/images/beautiful-white-smile-teeth-whitening-before-and-a.png"),
+    image: withBasePath("/beautiful-white-smile-teeth-whitening-before-and-a.png"),
     imageFit: "contain",
     href: "/servicos/estetica",
   },
@@ -36,14 +36,14 @@ const services = [
     title: "Bruxismo",
     description:
       "Diagnóstico e tratamento do bruxismo do sono e da vigília. Avaliação de desgaste dental, dor e risco de fraturas.",
-    image: withBasePath("/images/dental-night-guard-bruxism-treatment-oral-health-d.png"),
+    image: withBasePath("/dental-night-guard-bruxism-treatment-oral-health-d.png"),
     href: "/servicos/bruxismo",
   },
   {
     title: "Reabilitação Oral",
     description:
       "Próteses e coroas para restaurar função, estética e saúde bucal. Acompanhamento contínuo para manutenção adequada.",
-    image: withBasePath("/images/dental-crown-prosthesis-oral-rehabilitation-modern.jpeg"),
+    image: withBasePath("/dental-crown-prosthesis-oral-rehabilitation-modern.jpeg"),
     imageFit: "contain",
     href: "/servicos/reabilitacao-oral",
   },

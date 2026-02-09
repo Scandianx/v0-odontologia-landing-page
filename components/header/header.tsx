@@ -34,7 +34,7 @@ export function Header() {
       <div className={styles.headerContent}>
         <Link href="/#inicio" className={styles.logo}>
           <img
-            src={withBasePath("/images/logotipo-jalimar-removebg-preview.png")}
+            src={withBasePath("/logotipo-jalimar-removebg-preview.png")}
             alt="Jalimar Martins - Odontologia, DTM e Dor Orofacial"
             className={styles.logoImage}
           />

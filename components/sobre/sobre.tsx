@@ -19,7 +19,7 @@ export function Sobre() {
 
           <div className={`${styles.professionalCard} zoom-in anim-delay-1`}>
             <div className={styles.imageWrapper}>
-              <img src={withBasePath("/images/jalimar-foto.jpeg")} alt="Dra. Jalimar Martins - Cirurgiã-Dentista" loading="lazy" />
+              <img src={withBasePath("/jalimar-foto.jpeg")} alt="Dra. Jalimar Martins - Cirurgiã-Dentista" loading="lazy" />
             </div>
             <div className={styles.info}>
               <h3>Dra. Jalimar Martins</h3>
@@ -33,7 +33,7 @@ export function Sobre() {
 
           <div className={`${styles.professionalCard} zoom-in anim-delay-2`}>
             <div className={styles.imageWrapper}>
-              <img src={withBasePath("/images/2-dentista.png")} alt="Dra. Daniela - Cirurgiã-Dentista" loading="lazy" />
+              <img src={withBasePath("/2-dentista.png")} alt="Dra. Daniela - Cirurgiã-Dentista" loading="lazy" />
             </div>
             <div className={styles.info}>
               <h3>Dra. Daniela</h3>
