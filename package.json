@@ -5,6 +5,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "build:gh-pages": "node scripts/build-gh-pages.mjs",
     "start": "next start"
   },
   "dependencies": {

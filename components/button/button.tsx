@@ -2,6 +2,7 @@
 
 import styles from "./button.module.css"
 import type { ReactNode } from "react"
+import Link from "next/link"
 
 interface ButtonProps {
   children: ReactNode
@@ -41,6 +42,16 @@ export function Button({
     .join(" ")
 
   if (href) {
+    const isInternal = href.startsWith("/") || href.startsWith("#")
+
+    if (isInternal && !target) {
+      return (
+        <Link href={href} className={classes} aria-label={ariaLabel}>
+          {children}
+        </Link>
+      )
+    }
+
     return (
       <a href={href} target={target} rel={rel} className={classes} aria-label={ariaLabel}>
         {children}
