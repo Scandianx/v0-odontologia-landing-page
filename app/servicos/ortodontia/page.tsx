@@ -1,12 +1,13 @@
 import { Header } from "@/components/header/header"
 import { ServiceDetail } from "@/components/service-detail/service-detail"
 import { Footer } from "@/components/footer/footer"
+import { withBasePath } from "@/lib/paths"
 
 export default function OrtodontiaPage() {
   const serviceData = {
     title: "Ortodontia",
     subtitle: "Transforme seu sorriso com aparelhos autoligados de última geração",
-    heroImage: "/images/modern-dental-braces-orthodontic-treatment-close-u.png",
+    heroImage: withBasePath("/images/modern-dental-braces-orthodontic-treatment-close-u.png"),
     description:
       "A ortodontia é a especialidade que corrige a posição dos dentes e dos ossos maxilares. Utilizamos aparelhos autoligados de última geração que proporcionam mais conforto, menos visitas ao consultório e resultados mais rápidos. Nosso tratamento é personalizado para cada paciente, garantindo não apenas um sorriso bonito, mas também saúde bucal e funcionalidade mastigatória adequada.",
     benefits: [

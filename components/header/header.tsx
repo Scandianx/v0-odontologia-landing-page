@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import styles from "./header.module.css"
+import { withBasePath } from "@/lib/paths"
 
 const navItems = [
   { label: "Início", href: "/#inicio" },
@@ -33,7 +34,7 @@ export function Header() {
       <div className={styles.headerContent}>
         <Link href="/#inicio" className={styles.logo}>
           <img
-            src="/images/logotipo-jalimar-removebg-preview.png"
+            src={withBasePath("/images/logotipo-jalimar-removebg-preview.png")}
             alt="Jalimar Martins - Odontologia, DTM e Dor Orofacial"
             className={styles.logoImage}
           />

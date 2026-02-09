@@ -1,5 +1,6 @@
 import styles from "./hero.module.css"
 import { Button } from "../button/button"
+import { withBasePath } from "@/lib/paths"
 
 export function Hero() {
   return (
@@ -68,7 +69,7 @@ export function Hero() {
 
         <div className={`${styles.heroImage} zoom-in anim-delay-1`}>
           <img
-            src="/images/consultorio-jalimar.jpeg"
+            src={withBasePath("/images/consultorio-jalimar.jpeg")}
             alt="Interior do consultório odontológico Dra. Jalimar Martins com equipamentos modernos"
             loading="eager"
           />

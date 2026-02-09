@@ -1,12 +1,13 @@
 import { Header } from "@/components/header/header"
 import { ServiceDetail } from "@/components/service-detail/service-detail"
 import { Footer } from "@/components/footer/footer"
+import { withBasePath } from "@/lib/paths"
 
 export default function DtmAtmPage() {
   const serviceData = {
     title: "DTM / Dor Orofacial / ATM",
     subtitle: "Tratamento especializado para dores na face e articulação temporomandibular",
-    heroImage: "/images/jaw-pain-facial-massage-therapy-professional-healt.png",
+    heroImage: withBasePath("/images/jaw-pain-facial-massage-therapy-professional-healt.png"),
     description:
       "A DTM (Disfunção Temporomandibular) afeta a articulação que conecta a mandíbula ao crânio e os músculos faciais. Muitas vezes confundida com cefaleia, sinusite ou dor de ouvido, a DTM pode causar desconforto significativo no dia a dia. Realizamos avaliação completa da articulação temporomandibular, músculos mastigatórios e padrões oclusais para identificar a causa da dor e propor o tratamento mais adequado, que pode incluir placas miorrelaxantes, ajustes oclusais e orientações posturais.",
     benefits: [

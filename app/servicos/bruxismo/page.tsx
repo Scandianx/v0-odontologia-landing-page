@@ -1,12 +1,13 @@
 import { Header } from "@/components/header/header"
 import { ServiceDetail } from "@/components/service-detail/service-detail"
 import { Footer } from "@/components/footer/footer"
+import { withBasePath } from "@/lib/paths"
 
 export default function BruxismoPage() {
   const serviceData = {
     title: "Bruxismo",
     subtitle: "Proteja seus dentes do desgaste e elimine dores causadas pelo ranger e apertar",
-    heroImage: "/images/dental-night-guard-bruxism-treatment-oral-health-d.png",
+    heroImage: withBasePath("/images/dental-night-guard-bruxism-treatment-oral-health-d.png"),
     description:
       "O bruxismo é o hábito involuntário de ranger ou apertar os dentes, que pode ocorrer durante o sono (bruxismo do sono) ou durante o dia (bruxismo da vigília). Esse hábito causa desgaste excessivo dos dentes, dores na mandíbula, dores de cabeça e até fraturas dentárias. Realizamos avaliação completa para identificar o grau de desgaste, sintomas associados e fatores contribuintes. O tratamento inclui confecção de placas miorrelaxantes personalizadas, orientações sobre gestão de estresse e, quando necessário, reabilitação dos dentes desgastados.",
     benefits: [
