@@ -50,8 +50,7 @@ Abra `http://localhost:3000` no navegador.
 
 ## Deploy
 
-Você pode publicar em qualquer plataforma que rode Next.js (por exemplo: Vercel, Render, Railway, VPS).
-O fluxo típico é: `npm install` → `npm run build` → `npm run start`.
+GitHub Pages
 
 ## Observações
 
