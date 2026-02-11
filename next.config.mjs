@@ -1,20 +1,17 @@
-const isGithubPages = process.env.GITHUB_PAGES === "true"
-const basePath = isGithubPages ? "" : ""
-
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  output: "export",
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
+  basePath: "",
+  assetPrefix: "",
   env: {
-    NEXT_PUBLIC_BASE_PATH: basePath,
+    NEXT_PUBLIC_BASE_PATH: "",
   },
-  output: "export",
-  trailingSlash: true,
-  basePath,
-  assetPrefix: basePath,
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 }
 
 export default nextConfig
