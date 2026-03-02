@@ -50,6 +50,11 @@
   transition: all var(--transition-base);
 }
 
+.cardContent {
+  min-width: 0;
+  flex: 1;
+}
+
 .card:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
@@ -83,12 +88,15 @@
   font-size: var(--font-size-base);
   color: var(--color-text-light);
   line-height: 1.6;
+  overflow-wrap: anywhere;
 }
 
 .cardContent a {
   color: var(--color-primary);
   font-weight: 500;
   transition: color var(--transition-fast);
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .cardContent a:hover {
@@ -131,5 +139,30 @@
   .mapWrapper {
     height: 100%;
     min-height: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+  .section {
+    padding: var(--spacing-3xl) 0;
+  }
+
+  .card {
+    padding: var(--spacing-lg);
+    gap: var(--spacing-md);
+  }
+
+  .cardIcon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .cardIcon svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .mapWrapper {
+    height: 260px;
   }
 }
