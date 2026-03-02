@@ -1,4 +1,4 @@
-import { Header } from "@/components/header/header"
+﻿import { Header } from "@/components/header/header"
 import { ServiceDetail } from "@/components/service-detail/service-detail"
 import { Footer } from "@/components/footer/footer"
 import { withBasePath } from "@/lib/paths"
@@ -6,42 +6,52 @@ import { withBasePath } from "@/lib/paths"
 export default function EsteticaPage() {
   const serviceData = {
     title: "Estética do Sorriso",
-    subtitle: "Transforme seu sorriso com naturalidade e harmonia",
+    subtitle: "O resgate da sua autoestima através do sorriso",
     heroImage: withBasePath("/beautiful-white-smile-teeth-whitening-before-and-a.png"),
     heroImageFit: "contain",
     description:
-      "A estética do sorriso combina arte e ciência para criar sorrisos naturais e harmoniosos. Oferecemos clareamento dental supervisionado, que garante resultados seguros e duradouros, e lentes de contato dentais ultrafinas, que transformam o sorriso de forma minimamente invasiva. Cada tratamento é planejado digitalmente para garantir que o resultado final esteja em perfeita harmonia com o rosto, lábios e gengivas do paciente. Nosso objetivo é realçar a beleza natural de cada sorriso, respeitando a individualidade e expectativas de cada pessoa.",
+      "Um sorriso confiante transforma a sua forma de interagir com o mundo. Em nosso consultório, unimos sensibilidade artística ao respeito rigoroso pela biologia para devolver a alegria de se olhar ao espelho com segurança e naturalidade. Para harmonizar o seu sorriso com saúde e longevidade, utilizamos Clareamento Dental, Lentes de Contato e Facetas, Plástica Gengival e Substituição de Restaurações. Aqui, o seu novo sorriso é planejado para ser tão único quanto você.",
     benefits: [
-      "Clareamento dental supervisionado e seguro",
-      "Lentes de contato dentais com resultado natural",
-      "Planejamento digital do sorriso (DSD)",
-      "Procedimentos minimamente invasivos",
-      "Correção de imperfeições e manchas",
-      "Aumento da autoestima e confiança",
+      "Resultados naturais, para que a estética nunca pareça artificial",
+      "Segurança em sorrir em reuniões, fotos e momentos sociais",
+      "Saúde em primeiro lugar, com foco em biologia e longevidade",
+      "Mínimo desgaste da estrutura dentária original",
+      "Acabamento natural com materiais que mimetizam textura e luz",
+      "Atendimento humanizado, focado em expectativas e conforto",
     ],
     faqs: [
       {
-        question: "Quanto tempo dura o clareamento dental?",
+        question: "Quanto tempo duram as lentes de contato ou facetas?",
         answer:
-          "Com os cuidados adequados, o clareamento pode durar de 1 a 3 anos. A longevidade depende de hábitos alimentares, higiene oral e controle de consumo de alimentos e bebidas pigmentadas.",
+          "Os materiais modernos são resistentes e estáveis. Com bons cuidados de higiene e visitas regulares ao dentista, podem durar muitos anos. A longevidade depende da saúde gengival e da ausência de apertamento sem proteção.",
       },
       {
-        question: "As lentes de contato danificam os dentes?",
+        question: "Precisa desgastar muito o dente natural?",
         answer:
-          "Não! As lentes modernas são ultrafinas e exigem desgaste mínimo ou nenhum desgaste do esmalte dental. O procedimento é reversível e preserva a estrutura natural dos dentes.",
+          "Não. Seguimos a filosofia da Odontologia Minimamente Invasiva. Em muitos casos, o desgaste é quase imperceptível ou inexistente.",
       },
       {
-        question: "Quanto tempo leva para colocar lentes de contato?",
+        question: "O resultado pode ficar com aspecto artificial?",
         answer:
-          "O processo completo geralmente leva de 2 a 3 consultas, incluindo planejamento digital, preparo dos dentes (se necessário), moldagem e cimentação das lentes definitivas.",
+          "Nosso objetivo é a naturalidade absoluta. Estudamos as proporções do rosto e utilizamos materiais que imitam a passagem da luz e a textura de um dente real.",
       },
       {
-        question: "O clareamento sensibiliza os dentes?",
+        question: "O clareamento estraga ou enfraquece o esmalte?",
         answer:
-          "Pode ocorrer sensibilidade temporária durante o tratamento, mas utilizamos produtos de alta qualidade e técnicas que minimizam esse desconforto. A sensibilidade desaparece após o término do tratamento.",
+          "Mito. Quando realizado com supervisão profissional, o clareamento é seguro. Ele não remove o esmalte, apenas retira os pigmentos que escurecem o dente ao longo dos anos.",
+      },
+      {
+        question: "Quem tem bruxismo ou aperta os dentes pode fazer?",
+        answer:
+          "Sim, mas com planejamento. Após a finalização do sorriso, confeccionamos um dispositivo de proteção (placa) para garantir que o investimento não seja danificado pelo apertamento noturno.",
+      },
+      {
+        question: "Cada sorriso exige um planejamento único.",
+        answer:
+          "Descubra quais destes tratamentos são os ideais para resgatar a sua autoestima.",
       },
     ],
-    ctaText: "Agende sua Avaliação",
+    ctaText: "Agende sua avaliação",
     ctaLink: "/#contato",
   }
 

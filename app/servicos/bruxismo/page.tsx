@@ -1,4 +1,4 @@
-import { Header } from "@/components/header/header"
+﻿import { Header } from "@/components/header/header"
 import { ServiceDetail } from "@/components/service-detail/service-detail"
 import { Footer } from "@/components/footer/footer"
 import { withBasePath } from "@/lib/paths"
@@ -6,41 +6,51 @@ import { withBasePath } from "@/lib/paths"
 export default function BruxismoPage() {
   const serviceData = {
     title: "Bruxismo",
-    subtitle: "Proteja seus dentes do desgaste e elimine dores causadas pelo ranger e apertar",
+    subtitle: "Entenda esse comportamento muscular",
     heroImage: withBasePath("/dental-night-guard-bruxism-treatment-oral-health-d.png"),
     description:
-      "O bruxismo é o hábito involuntário de ranger ou apertar os dentes, que pode ocorrer durante o sono (bruxismo do sono) ou durante o dia (bruxismo da vigília). Esse hábito causa desgaste excessivo dos dentes, dores na mandíbula, dores de cabeça e até fraturas dentárias. Realizamos avaliação completa para identificar o grau de desgaste, sintomas associados e fatores contribuintes. O tratamento inclui confecção de placas miorrelaxantes personalizadas, orientações sobre gestão de estresse e, quando necessário, reabilitação dos dentes desgastados.",
+      "O bruxismo é definido atualmente como uma atividade da musculatura mastigatória. Ele se divide em dois tipos distintos, que exigem abordagens diferentes: bruxismo do sono, que ocorre enquanto você dorme e pode estar associado a apneia do sono ou refluxo; e bruxismo da vigília, que ocorre enquanto você está acordado, geralmente manifestado pelo apertamento dos dentes e tensão da mandíbula em momentos de concentração ou estresse.",
     benefits: [
-      "Proteção dos dentes contra desgaste e fraturas",
-      "Alívio de dores de cabeça e tensão muscular",
-      "Redução de dores na mandíbula e face",
-      "Melhora da qualidade do sono",
-      "Prevenção de problemas futuros na ATM",
-      "Placas personalizadas confortáveis",
+      "Desgaste severo nos dentes",
+      "Prevenção de fraturas dentárias recorrentes",
+      "Alívio de dor e fadiga muscular",
+      "Redução da sobrecarga da articulação (ATM)",
+      "Redução de cefaleias do tipo tensional",
+      "Menor impacto na qualidade do sono e da vida",
     ],
     faqs: [
       {
-        question: "Como sei se tenho bruxismo?",
+        question: "O bruxismo tem cura?",
         answer:
-          "Sinais comuns incluem desgaste visível dos dentes, dor ao acordar na mandíbula ou têmporas, dores de cabeça frequentes, sensibilidade dental aumentada e, em alguns casos, o parceiro pode relatar que você range os dentes durante o sono.",
+          "Diferente do que muitos pensam, o bruxismo não é uma doença, mas sim um comportamento da musculatura mastigatória orientado pelo sistema nervoso. Por isso, o foco do tratamento moderno não é a “cura” definitiva, mas o gerenciamento das consequências para proteger dentes, articulações e bem-estar.",
       },
       {
-        question: "A placa de bruxismo cura o problema?",
+        question: "Qual a diferença entre bruxismo do sono e da vigília?",
         answer:
-          "A placa não cura o bruxismo, mas protege os dentes contra desgaste e fraturas, relaxa a musculatura e reduz sintomas como dor. O controle de estresse e ansiedade também é importante no tratamento.",
+          "O bruxismo do sono ocorre de forma rítmica enquanto você dorme, muitas vezes associado a distúrbios como a apneia. Já o bruxismo da vigília acontece enquanto você está acordado, geralmente manifestado pelo apertamento dos dentes ou tensão na mandíbula em momentos de estresse ou concentração.",
       },
       {
-        question: "Preciso usar a placa para sempre?",
+        question: "A placa serve para relaxar o músculo?",
         answer:
-          "O uso da placa geralmente é contínuo para proteção dos dentes, especialmente durante o sono. Com controle de fatores de risco como estresse, algumas pessoas conseguem reduzir o uso ao longo do tempo.",
+          "Utilizamos dispositivos interoclusais de precisão (placas de acrílico rígido) que têm como função principal a proteção dos dentes e a estabilização da articulação (ATM). O termo “placa miorrelaxante” caiu em desuso, pois o relaxamento é um efeito secundário do equilíbrio que a placa proporciona, e não uma ação direta do dispositivo.",
       },
       {
-        question: "Qual a diferença entre placa de bruxismo e placa para DTM?",
+        question: "Como tratar o bruxismo se eu aperto os dentes durante o dia?",
         answer:
-          "Ambas são similares, mas têm objetivos diferentes. A placa de bruxismo foca em proteger os dentes do desgaste, enquanto a placa para DTM tem design específico para reposicionar a mandíbula e relaxar a articulação.",
+          "Para o bruxismo da vigília, a abordagem principal é a conscientização e o biofeedback. Ensinamos técnicas para que o paciente perceba a tensão e aprenda a relaxar a mandíbula durante o dia, quebrando o ciclo de apertamento que causa dores de cabeça e fadiga facial.",
+      },
+      {
+        question: "O estresse pode causar bruxismo?",
+        answer:
+          "Sim, fatores como estresse, ansiedade, uso de certos medicamentos e até distúrbios do sono são considerados fatores contribuintes. Nossa avaliação busca identificar esses gatilhos para que o controle seja feito de forma completa, e não apenas nos dentes.",
+      },
+      {
+        question: "É possível recuperar os dentes que já foram desgastados?",
+        answer:
+          "Com certeza. Após estabilizarmos o comportamento muscular e protegermos o sistema com a placa, realizamos a Reabilitação Estética e Funcional. Através de restaurações e técnicas modernas, devolvemos a altura, a forma e a harmonia do sorriso, recuperando a eficiência da mastigação.",
       },
     ],
-    ctaText: "Agende sua Avaliação",
+    ctaText: "Agende sua avaliação",
     ctaLink: "/#contato",
   }
 

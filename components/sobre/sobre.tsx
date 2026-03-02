@@ -23,7 +23,7 @@ export function Sobre() {
             </div>
             <div className={styles.info}>
               <h3>Dra. Jalimar Martins</h3>
-              <p className={styles.specialty}>Especialista em Endodontia (UFF)</p>
+              <p className={styles.specialty}>Especialista em Ortodontia e DTM/Dor Orofacial (UFF)</p>
               <p className={styles.bio}>
                 Com formação sólida e atualização constante, a Dra. Jalimar atua nas áreas de Endodontia, DTM/ATM e Dor
                 Orofacial, sempre com foco em um tratamento humanizado e individualizado para cada paciente.

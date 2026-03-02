@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { useState } from "react"
 import styles from "./faq.module.css"
@@ -7,32 +7,32 @@ const faqItems = [
   {
     question: "Como funciona o aparelho autoligado?",
     answer:
-      "O aparelho autoligado utiliza brackets com um mecanismo de abertura e fechamento próprio, dispensando o uso de borrachinhas. Isso resulta em menos atrito, maior conforto, melhor higienização e intervalos maiores entre as consultas. O tratamento tende a ser mais rápido e com menos emergências.",
+      "O aparelho autoligado usa bráquetes sem borrachinhas, com menor atrito e forças mais leves. Isso melhora o conforto, facilita a higiene e pode otimizar as fases iniciais do alinhamento.",
   },
   {
     question: "Quando procurar avaliação para DTM/ATM?",
     answer:
-      "Procure avaliação se você apresenta dores na face, mandíbula ou ouvido, dificuldade para abrir ou fechar a boca, estalos ou ruídos ao mastigar, dores de cabeça frequentes ou sensação de travamento da mandíbula. Muitos desses sintomas são confundidos com cefaleia, sinusite ou dor de ouvido.",
+      "Procure avaliação ao sentir dor na face, mandíbula ou ouvido, estalos, travamento, cefaleias frequentes ou dificuldade para abrir a boca. Esses sintomas podem estar ligados à disfunção temporomandibular.",
   },
   {
     question: "Tratamento de canal dói?",
     answer:
-      "Com as técnicas modernas e anestesia adequada, o tratamento de canal é um procedimento confortável. Na verdade, ele serve justamente para aliviar a dor causada pela inflamação ou infecção no interior do dente. A maioria dos pacientes relata muito mais conforto após o procedimento do que antes.",
+      "Com técnicas anestésicas modernas e instrumentos atuais, o tratamento de canal é confortável. O objetivo é justamente remover a infecção e aliviar a dor.",
   },
   {
-    question: "Clareamento x lentes: qual escolher?",
+    question: "Clareamento ou facetas: qual escolher?",
     answer:
-      "O clareamento é indicado para quem deseja clarear os dentes mantendo sua forma natural. Já as lentes de contato dental são indicadas quando há necessidade de corrigir formato, tamanho ou pequenos desalinhamentos, além de clarear. A escolha ideal depende de uma avaliação das suas expectativas e condições dentárias.",
+      "O clareamento é indicado para melhorar a cor mantendo a forma natural dos dentes. Facetas e lentes são indicadas quando também é necessário corrigir forma, proporção ou pequenas assimetrias.",
   },
   {
     question: "Bruxismo sempre precisa tratar?",
     answer:
-      "Nem todo bruxismo causa problemas, mas é importante avaliar. O tratamento é indicado quando há desgaste dental, dor muscular ou articular, fraturas de dentes ou restaurações, ou quando o hábito afeta a qualidade do sono. A avaliação profissional determina a necessidade e o tipo de tratamento.",
+      "Nem todo bruxismo exige intervenção imediata, mas é essencial avaliar. O tratamento é indicado quando há desgaste dental, dor muscular, sobrecarga articular, fraturas ou impacto no sono.",
   },
   {
     question: "Como cuidar de próteses e coroas?",
     answer:
-      "A higienização deve ser feita como nos dentes naturais, com escovação após as refeições e uso de fio dental. Evite alimentos muito duros ou pegajosos que possam danificar a prótese. Consultas regulares são essenciais para verificar a adaptação e fazer ajustes quando necessário.",
+      "A higiene deve ser feita diariamente, como nos dentes naturais, com escovação e fio dental apropriado. Consultas periódicas são importantes para ajustes e maior longevidade.",
   },
 ]
 
@@ -47,8 +47,8 @@ export function FAQ() {
     <section id="duvidas" className={styles.section}>
       <div className={styles.container}>
         <header className={`${styles.header} fade-in`}>
-          <span className={styles.subtitle}>Dúvidas Frequentes</span>
-          <h2 className={styles.title}>Perguntas e Respostas</h2>
+          <span className={styles.subtitle}>Dúvidas frequentes</span>
+          <h2 className={styles.title}>Perguntas e respostas</h2>
         </header>
 
         <div className={styles.accordion}>

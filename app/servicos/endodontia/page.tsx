@@ -1,15 +1,15 @@
-import { Header } from "@/components/header/header"
+﻿import { Header } from "@/components/header/header"
 import { ServiceDetail } from "@/components/service-detail/service-detail"
 import { Footer } from "@/components/footer/footer"
 import { withBasePath } from "@/lib/paths"
 
 export default function EndodontiaPage() {
   const serviceData = {
-    title: "Endodontia (Tratamento de Canal)",
-    subtitle: "Salve seu dente natural com técnicas modernas e procedimentos confortáveis",
+    title: "Especialidades Integradas | Endodontia",
+    subtitle: "Endodontia avançada com atendimento acolhedor e tecnologia moderna",
     heroImage: withBasePath("/dental-root-canal-treatment-modern-equipment-profe.png"),
     description:
-      "A endodontia é a especialidade que trata a polpa dentária e os canais radiculares. Quando há infecção ou inflamação profunda no dente, o tratamento de canal é a solução para preservar o dente natural e evitar a extração. Utilizamos tecnologia de ponta, incluindo localizadores apicais eletrônicos e instrumentos rotatórios, que tornam o procedimento mais rápido, preciso e confortável. Com anestesia adequada, o tratamento é indolor e pode ser realizado em uma ou mais sessões, dependendo da complexidade do caso.",
+      '"Nossos tratamentos de Implantes e Endodontia Avançada são realizados por especialistas parceiros que seguem nosso rigoroso padrão de qualidade e atendimento humanizado." Sabemos que o medo e a ansiedade são comuns quando se fala em tratamento de canal. Por isso, unimos uma abordagem acolhedora a tecnologias modernas para oferecer um procedimento ágil e preciso. Nosso foco é remover a infecção e preparar o caminho para que seu corpo se recupere naturalmente, preservando seu dente original e devolvendo o conforto ao mastigar e a alegria de sorrir.',
     benefits: [
       "Preservação do dente natural evitando extração",
       "Eliminação da dor de dente aguda",
@@ -20,27 +20,27 @@ export default function EndodontiaPage() {
     ],
     faqs: [
       {
-        question: "O tratamento de canal dói?",
+        question: "O tratamento de canal é doloroso?",
         answer:
-          "Não! Com anestesia adequada, o procedimento é indolor. O objetivo do tratamento de canal é justamente eliminar a dor causada pela infecção ou inflamação do nervo do dente.",
+          "Não. Graças ao avanço das técnicas anestésicas e ao uso de tecnologias como os instrumentos mecanizados, o procedimento é hoje muito confortável. O medo está mais associado a experiências passadas ou falta de informação do que ao tratamento em si.",
       },
       {
-        question: "Quantas sessões são necessárias?",
+        question: "Quantas sessões são necessárias para concluir o tratamento?",
         answer:
-          "Depende da complexidade do caso. Muitos tratamentos podem ser concluídos em uma única sessão, enquanto casos mais complexos podem requerer 2 ou 3 consultas.",
+          "Depende da complexidade do caso, mas em muitos casos conseguimos limpar e selar o canal em poucas visitas. Casos com infecções mais persistentes podem exigir mais sessões para garantir a desinfecção completa.",
       },
       {
-        question: "O dente fica fraco após o canal?",
+        question: "O dente fica fraco ou “morto” após o tratamento de canal?",
         answer:
-          "O dente tratado endodonticamente pode se tornar mais frágil, mas com uma restauração adequada (coroa ou bloco) e cuidados de higiene, ele pode durar a vida toda.",
+          "O dente perde a sensibilidade interna, mas continua nutrido pelos tecidos ao seu redor. Ele não fica fraco pelo canal em si, mas pela perda de estrutura causada por cárie ou fratura. Após o tratamento, a restauração adequada devolve resistência e força.",
       },
       {
-        question: "Quando o tratamento de canal é necessário?",
+        question: "Quando o tratamento de canal é realmente necessário?",
         answer:
-          "É indicado quando há inflamação ou infecção da polpa dentária, causada por cárie profunda, trauma, trinca no dente ou procedimentos dentários repetidos. Sinais incluem dor intensa, sensibilidade prolongada e inchaço.",
+          "É indicado quando a polpa do dente sofre inflamação irreversível ou infecção (necrose), geralmente por cáries profundas, traumas ou fraturas. O objetivo é eliminar a dor e os microrganismos, evitando a extração.",
       },
     ],
-    ctaText: "Agende sua Consulta",
+    ctaText: "Agende sua consulta",
     ctaLink: "/#contato",
   }
 

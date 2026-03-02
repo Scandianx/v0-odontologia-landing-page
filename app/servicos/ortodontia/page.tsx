@@ -1,4 +1,4 @@
-import { Header } from "@/components/header/header"
+﻿import { Header } from "@/components/header/header"
 import { ServiceDetail } from "@/components/service-detail/service-detail"
 import { Footer } from "@/components/footer/footer"
 import { withBasePath } from "@/lib/paths"
@@ -6,41 +6,41 @@ import { withBasePath } from "@/lib/paths"
 export default function OrtodontiaPage() {
   const serviceData = {
     title: "Ortodontia",
-    subtitle: "Transforme seu sorriso com aparelhos autoligados de última geração",
+    subtitle: "Ortodontia moderna: bráquetes autoligáveis que priorizam conforto e higiene",
     heroImage: withBasePath("/modern-dental-braces-orthodontic-treatment-close-u.png"),
     description:
-      "A ortodontia é a especialidade que corrige a posição dos dentes e dos ossos maxilares. Utilizamos aparelhos autoligados de última geração que proporcionam mais conforto, menos visitas ao consultório e resultados mais rápidos. Nosso tratamento é personalizado para cada paciente, garantindo não apenas um sorriso bonito, mas também saúde bucal e funcionalidade mastigatória adequada.",
+      "A ortodontia é a especialidade dedicada a corrigir a posição dos dentes e ossos maxilares. Utilizamos a tecnologia de bráquetes autoligáveis para oferecer um tratamento superior. Diferente do sistema convencional, este aparelho dispensa o uso de ligaduras elásticas (borrachinhas), trazendo benefícios diretos para a saúde e o conforto.",
     benefits: [
-      "Correção do alinhamento dentário e da mordida",
-      "Aparelhos autoligados que reduzem o tempo de tratamento",
-      "Menos desconforto e visitas ao consultório",
-      "Melhora da estética do sorriso",
-      "Prevenção de problemas futuros como desgaste dentário e dores na ATM",
-      "Facilita a higienização e previne cáries",
+      "Higiene facilitada: sem borrachinhas, há redução no acúmulo de placa bacteriana",
+      "Tratamento mais biológico e confortável, com forças mais leves",
+      "Resultados mais eficientes nas fases iniciais do alinhamento",
+      "Menos visitas ao consultório, com fios ativos por mais tempo",
+      "Permite expansão do arco, podendo evitar extrações dentárias",
+      "Aparelho mais discreto e confortável, com bráquetes reduzidos",
     ],
     faqs: [
       {
         question: "Quanto tempo dura o tratamento ortodôntico?",
         answer:
-          "O tempo varia de acordo com a complexidade de cada caso, mas geralmente o tratamento dura entre 18 e 36 meses. Com aparelhos autoligados, muitas vezes conseguimos reduzir esse tempo.",
+          "O tempo varia conforme a complexidade de cada caso. Em média, dura entre 18 e 36 meses.",
       },
       {
-        question: "O aparelho dói?",
+        question: "O aparelho autoligável dói?",
         answer:
-          "É normal sentir uma leve pressão e desconforto nos primeiros dias após a colocação e ajustes. No entanto, os aparelhos autoligados que utilizamos causam menos desconforto que os tradicionais.",
+          "Ele costuma ser mais confortável por utilizar forças mais leves. É normal uma pressão inicial nos primeiros dias.",
       },
       {
-        question: "Qual a idade ideal para iniciar o tratamento?",
+        question: "Há menos consultas com esse sistema?",
         answer:
-          "Não há idade limite para ortodontia! Embora muitos tratamentos comecem na adolescência, adultos de qualquer idade podem se beneficiar. O ideal é fazer uma avaliação para determinar o melhor momento.",
+          "Geralmente sim. Como os fios mantêm sua ativação por mais tempo, as manutenções podem ser mais espaçadas.",
       },
       {
-        question: "Como é a manutenção do aparelho?",
+        question: "Sempre é necessário extrair dentes?",
         answer:
-          "As consultas de manutenção geralmente ocorrem a cada 4-8 semanas. Durante essas visitas, ajustamos o aparelho e monitoramos o progresso do tratamento.",
+          "Não. Em muitos casos, a mecânica autoligável permite melhor aproveitamento do arco e pode evitar extrações.",
       },
     ],
-    ctaText: "Agende sua Avaliação",
+    ctaText: "Agende sua avaliação",
     ctaLink: "/#contato",
   }
 
