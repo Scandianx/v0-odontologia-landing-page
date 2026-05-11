@@ -7,7 +7,7 @@ export default function BruxismoPage() {
   const serviceData = {
     title: "Bruxismo",
     subtitle: "Entenda esse comportamento muscular",
-    heroImage: withBasePath("/dental-night-guard-bruxism-treatment-oral-health-d.png"),
+    heroImage: withBasePath("/whatsapp-bruxismo.jpeg"),
     description:
       "O bruxismo é definido atualmente como uma atividade da musculatura mastigatória. Ele se divide em dois tipos distintos, que exigem abordagens diferentes: bruxismo do sono, que ocorre enquanto você dorme e pode estar associado a apneia do sono ou refluxo; e bruxismo da vigília, que ocorre enquanto você está acordado, geralmente manifestado pelo apertamento dos dentes e tensão da mandíbula em momentos de concentração ou estresse.",
     benefits: [

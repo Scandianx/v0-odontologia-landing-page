@@ -7,14 +7,14 @@ const services = [
     title: "DTM / Dor Orofacial / ATM",
     description:
       "Condição complexa da ATM e musculatura mastigatória, com foco em diagnóstico e controle da dor.",
-    image: withBasePath("/jaw-pain-facial-massage-therapy-professional-healt.png"),
+    image: withBasePath("/whatsapp-dtm.jpeg"),
     href: "/servicos/dtm-atm",
   },
   {
     title: "Bruxismo",
     description:
       "Entenda e trate o bruxismo do sono e da vigília para proteger dentes e articulação.",
-    image: withBasePath("/dental-night-guard-bruxism-treatment-oral-health-d.png"),
+    image: withBasePath("/whatsapp-bruxismo.jpeg"),
     href: "/servicos/bruxismo",
   },
   {
@@ -28,8 +28,7 @@ const services = [
     title: "Estética do Sorriso",
     description:
       "Clareamento, lentes e facetas com planejamento para resultados naturais e duradouros.",
-    image: withBasePath("/beautiful-white-smile-teeth-whitening-before-and-a.png"),
-    imageFit: "contain",
+    image: withBasePath("/whatsapp-estetica-sorriso.jpeg"),
     href: "/servicos/estetica",
   },
   {

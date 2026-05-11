@@ -7,7 +7,7 @@ export default function DtmAtmPage() {
   const serviceData = {
     title: "DTM / Dor Orofacial / ATM",
     subtitle: "Condição complexa que envolve ATM, músculos mastigatórios e estruturas associadas",
-    heroImage: withBasePath("/jaw-pain-facial-massage-therapy-professional-healt.png"),
+    heroImage: withBasePath("/whatsapp-dtm.jpeg"),
     description:
       "A Disfunção Temporomandibular (DTM) não é apenas uma dor na mandíbula; é uma condição complexa que envolve a articulação (ATM), os músculos mastigatórios e estruturas associadas. O diagnóstico correto é o primeiro passo para o controle da dor e a recuperação da qualidade de vida. Muitas vezes, a DTM se manifesta através de sintomas que não se associam diretamente aos dentes, como cefaleias e cervicalgias, sintomas otológicos e limitação funcional ao abrir a boca e mastigar.",
     benefits: [

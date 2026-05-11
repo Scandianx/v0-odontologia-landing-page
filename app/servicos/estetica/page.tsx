@@ -7,8 +7,7 @@ export default function EsteticaPage() {
   const serviceData = {
     title: "Estética do Sorriso",
     subtitle: "O resgate da sua autoestima através do sorriso",
-    heroImage: withBasePath("/beautiful-white-smile-teeth-whitening-before-and-a.png"),
-    heroImageFit: "contain",
+    heroImage: withBasePath("/whatsapp-estetica-sorriso.jpeg"),
     description:
       "Um sorriso confiante transforma a sua forma de interagir com o mundo. Em nosso consultório, unimos sensibilidade artística ao respeito rigoroso pela biologia para devolver a alegria de se olhar ao espelho com segurança e naturalidade. Para harmonizar o seu sorriso com saúde e longevidade, utilizamos Clareamento Dental, Lentes de Contato e Facetas, Plástica Gengival e Substituição de Restaurações. Aqui, o seu novo sorriso é planejado para ser tão único quanto você.",
     benefits: [
