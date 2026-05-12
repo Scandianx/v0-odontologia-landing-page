@@ -253,8 +253,8 @@ ol {
 /* Scroll reveal — uma única animação sutil aplicada via ScrollReveal */
 .reveal {
   opacity: 0;
-  transform: translateY(16px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  transform: translateY(32px);
+  transition: opacity 1.4s cubic-bezier(0.4, 0, 0.2, 1), transform 1.4s cubic-bezier(0.4, 0, 0.2, 1);
   will-change: opacity, transform;
 }
 .reveal.is-visible {
