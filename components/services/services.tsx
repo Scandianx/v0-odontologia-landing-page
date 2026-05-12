@@ -53,7 +53,7 @@ export function Services() {
   return (
     <section id="servicos" className={styles.services}>
       <div className={styles.container}>
-        <header className={`${styles.header} fade-in`}>
+        <header className={`${styles.header} reveal`}>
           <span className={styles.subtitle}>Sequência dos serviços</span>
           <h2 className={styles.title}>Cuidados especializados para você</h2>
           <p className={styles.description}>
@@ -62,7 +62,7 @@ export function Services() {
         </header>
 
         <div className={styles.grid}>
-          {services.map((service, index) => (
+          {services.map((service) => (
             <ServiceCard
               key={service.title}
               title={service.title}
@@ -70,7 +70,7 @@ export function Services() {
               image={service.image}
               href={service.href}
               imageFit={service.imageFit}
-              className={`zoom-in anim-delay-${(index % 4) + 1}`}
+              className="reveal"
             />
           ))}
         </div>

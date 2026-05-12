@@ -42,14 +42,7 @@ export default function RootLayout({
       <body className={poppins.className}>
         <ScrollReveal />
         <noscript>
-          <style>{`
-            .zoom-in, .drop-in, .slide-left, .fade-in, .blur-in, .light-in, .skew-in, .elastic-in {
-              opacity: 1 !important;
-              transform: none !important;
-              filter: none !important;
-              transition: none !important;
-            }
-          `}</style>
+          <style>{`.reveal { opacity: 1 !important; transform: none !important; }`}</style>
         </noscript>
         {children}
       </body>

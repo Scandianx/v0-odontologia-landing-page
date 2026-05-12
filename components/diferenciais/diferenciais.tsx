@@ -86,14 +86,14 @@ export function Diferenciais() {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        <header className={`${styles.header} fade-in`}>
+        <header className={`${styles.header} reveal`}>
           <span className={styles.subtitle}>Por que nos escolher</span>
           <h2 className={styles.title}>Nossos Diferenciais</h2>
         </header>
 
         <div className={styles.grid}>
-          {diferenciais.map((item, index) => (
-            <div key={item.title} className={`${styles.item} skew-in anim-delay-${(index % 4) + 1}`.trim()}>
+          {diferenciais.map((item) => (
+            <div key={item.title} className={`${styles.item} reveal`}>
               <div className={styles.iconWrapper}>{item.icon}</div>
               <div className={styles.content}>
                 <h3>{item.title}</h3>

@@ -3,7 +3,7 @@ import styles from "./cta-final.module.css"
 export function CTAFinal() {
   return (
     <section className={styles.section}>
-      <div className={`${styles.container} elastic-in`}>
+      <div className={`${styles.container} reveal`}>
         <h2 className={styles.title}>Pronto para transformar seu sorriso?</h2>
         <p className={styles.description}>
           Agende sua consulta e descubra como podemos ajudar você a conquistar o sorriso que sempre desejou, com todo o

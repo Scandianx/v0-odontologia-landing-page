@@ -41,14 +41,14 @@ export function ServiceDetail({
           className={styles.heroImage}
           style={{ objectFit: heroImageFit, objectPosition: heroImagePosition }}
         />
-        <div className={`${styles.heroContent} drop-in`}>
+        <div className={`${styles.heroContent} reveal`}>
           <h1 className={styles.heroTitle}>{title}</h1>
           <p className={styles.heroSubtitle}>{subtitle}</p>
         </div>
       </section>
 
       {/* Description Section */}
-      <section className={`${styles.description} fade-in`}>
+      <section className={`${styles.description} reveal`}>
         <div className="container">
           <div className={styles.descriptionContent}>
             <h2 className={styles.sectionTitle}>Sobre o Tratamento</h2>
@@ -58,12 +58,12 @@ export function ServiceDetail({
       </section>
 
       {/* Benefits Section */}
-      <section className={`${styles.benefits} fade-in`}>
+      <section className={`${styles.benefits} reveal`}>
         <div className="container">
           <h2 className={styles.sectionTitle}>Benefícios</h2>
           <div className={styles.benefitsGrid}>
             {benefits.map((benefit, index) => (
-              <div key={index} className={`${styles.benefitCard} slide-left anim-delay-${(index % 4) + 1}`.trim()}>
+              <div key={index} className={styles.benefitCard}>
                 <div className={styles.benefitNumber}>{String(index + 1).padStart(2, "0")}</div>
                 <p className={styles.benefitText}>{benefit}</p>
               </div>
@@ -73,12 +73,12 @@ export function ServiceDetail({
       </section>
 
       {/* FAQ Section */}
-      <section className={`${styles.faq} fade-in`}>
+      <section className={`${styles.faq} reveal`}>
         <div className="container">
           <h2 className={styles.sectionTitle}>Perguntas Frequentes</h2>
           <div className={styles.faqList}>
             {faqs.map((faq, index) => (
-              <details key={index} className={`${styles.faqItem} fade-in anim-delay-${(index % 4) + 1}`.trim()}>
+              <details key={index} className={styles.faqItem}>
                 <summary className={styles.faqQuestion}>
                   {faq.question}
                   <span className={styles.faqIcon}>+</span>
@@ -93,7 +93,7 @@ export function ServiceDetail({
       {/* CTA Section */}
       <section className={styles.cta}>
         <div className="container">
-          <div className={`${styles.ctaContent} elastic-in`}>
+          <div className={`${styles.ctaContent} reveal`}>
             <h2 className={styles.ctaTitle}>Pronto para transformar seu sorriso?</h2>
             <p className={styles.ctaText}>Agende sua avaliação e descubra como podemos ajudar você.</p>
             <Link href={ctaLink}>

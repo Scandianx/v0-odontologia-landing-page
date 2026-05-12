@@ -46,7 +46,7 @@ export function FAQ() {
   return (
     <section id="duvidas" className={styles.section}>
       <div className={styles.container}>
-        <header className={`${styles.header} fade-in`}>
+        <header className={`${styles.header} reveal`}>
           <span className={styles.subtitle}>Dúvidas frequentes</span>
           <h2 className={styles.title}>Perguntas e respostas</h2>
         </header>
@@ -55,7 +55,7 @@ export function FAQ() {
           {faqItems.map((item, index) => (
             <div
               key={index}
-              className={`${styles.item} fade-in anim-delay-${(index % 4) + 1} ${openIndex === index ? styles.open : ""}`}
+              className={`${styles.item} ${openIndex === index ? styles.open : ""}`}
             >
               <button
                 className={styles.trigger}
